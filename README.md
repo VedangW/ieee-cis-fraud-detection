@@ -5,7 +5,7 @@ Machine Learning to detect transaction fraud using the IEEE-CIS Fraud Detection 
 
 ### Introduction
 
-The IEEE-CIS Fraud Detection competition was held on Kaggle during 2019 and focused on benchmarking Machine Learning models on a large-scale transaction dataset. The task was a binary classification task: classify an online transaction as `fraud` or `not fraud` .
+The [IEEE-CIS Fraud Detection competition](https://www.kaggle.com/c/ieee-fraud-detection/overview) was held on Kaggle during 2019 and focused on benchmarking Machine Learning models on a large-scale transaction dataset. The task was a binary classification task: classify an online transaction as `fraud` or `not fraud` .
 
 We decided to explore this dataset on our own and build models to detect online fraud. Our features and models are built keeping in mind if it is feasible to create a “product” out of our solution. Our XGBoost model was able to reach an AUC value of `0.885` on the validation dataset.
 
