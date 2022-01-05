@@ -40,7 +40,7 @@ Before all of these processes, we sort the training dataset by timestamp (`Trans
 
 We cannot use the traditional k-fold cross validation procedure, and instead use an expanding time-based cross validation, as shown in the diagram below (taken from [https://stats.stackexchange.com/questions/14099/using-k-fold-cross-validation-for-time-series-model-selection](https://stats.stackexchange.com/questions/14099/using-k-fold-cross-validation-for-time-series-model-selection)).
 
-![time-based-cross-validation.png](README%20for%20IEEE%20-%20CIS%20Fraud%20Detection%20fb6b75c1bd204b54a75ef21a72df977d/time-based-cross-validation.png)
+![time-based-cross-validation.png](images/time-based-cross-validation.png)
 
 **Feature Encoding**
 
